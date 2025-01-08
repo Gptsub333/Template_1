@@ -16,37 +16,41 @@ function Testimonials() {
   };
 
   return (
-    <div className="container mx-auto px-0 py-20">
-      <h3 className="text-xl text-[#ACA296] mb-4">{subHeading}</h3>
+    <div className="container mx-auto px-4 py-10">
+      {/* Subheading */}
+      <h3 className="text-lg md:text-xl text-[#ACA296] mb-4 text-center">
+        {subHeading}
+      </h3>
 
       <div className="relative">
-        {/* Center-aligned heading */}
-        <h2 className="text-6xl font-semibold text-center mb-8">
+        {/* Section Heading */}
+        <h2 className="text-4xl md:text-6xl font-semibold text-center mb-8">
           {sectionHeading}
         </h2>
 
-        <div className="max-w-3xl mx-auto mb-12">
-          <p className="text-lg text-[#414D43] text-center mb-8">
+        {/* Testimonial Content */}
+        <div className="max-w-xl md:max-w-3xl mx-auto mb-12">
+          <p className="text-sm md:text-lg text-[#414D43] text-center mb-8">
             {testimonialsList[currentSlide].text}
           </p>
 
           {/* Testimonial Details */}
-          <div className="flex items-center justify-center">
-            {/* Image to the left */}
+          <div className="flex flex-col md:flex-row items-center justify-center">
+            {/* Image */}
             <img
               src={testimonialsList[currentSlide].image}
               alt={testimonialsList[currentSlide].name}
-              className="w-16 h-16 rounded-full object-cover mr-4"
+              className="w-12 h-12 md:w-16 md:h-16 rounded-full object-cover mb-4 md:mb-0 md:mr-4"
             />
 
             {/* Name and Ratings */}
             <div>
-              <div className="flex items-center space-x-1 mb-2">
+              <div className="flex items-center space-x-1 mb-2 justify-center md:justify-start">
                 {[...Array(testimonialsList[currentSlide].rating)].map(
                   (_, i) => (
                     <svg
                       key={i}
-                      className="w-5 h-5 text-[#262626]"
+                      className="w-4 md:w-5 h-4 md:h-5 text-[#262626]"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -55,16 +59,18 @@ function Testimonials() {
                   )
                 )}
               </div>
-              <p className="text-xl">{testimonialsList[currentSlide].name}</p>
+              <p className="text-lg md:text-xl text-center md:text-left">
+                {testimonialsList[currentSlide].name}
+              </p>
             </div>
           </div>
         </div>
 
         {/* Navigation Buttons */}
-        <div className="flex justify-center space-x-16">
+        <div className="flex justify-center space-x-8 md:space-x-16">
           <button
             onClick={prevSlide}
-            className="w-12 h-12 rounded-full border border-[#262626] flex items-center justify-center hover:bg-[#262626] hover:text-white transition-colors duration-300"
+            className="w-10 h-10 md:w-12 md:h-12 rounded-full border border-[#262626] flex items-center justify-center hover:bg-[#262626] hover:text-white transition-colors duration-300"
           >
             <svg
               className="w-4 h-4"
@@ -83,7 +89,7 @@ function Testimonials() {
 
           <button
             onClick={nextSlide}
-            className="w-12 h-12 rounded-full border border-[#262626] flex items-center justify-center hover:bg-[#262626] hover:text-white transition-colors duration-300"
+            className="w-10 h-10 md:w-12 md:h-12 rounded-full border border-[#262626] flex items-center justify-center hover:bg-[#262626] hover:text-white transition-colors duration-300"
           >
             <svg
               className="w-4 h-4"

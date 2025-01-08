@@ -10,16 +10,18 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="font-manrope px-6">
+    <>
       <Navbar />
-      <Hero />
-      <Stats />
-      <WorkLocation />
-      <Services />
-      <Testimonials />
-      <ContactForm />
-      <Footer />
-    </div>
+      <div className="font-manrope px-6">
+        <Hero />
+        <Stats />
+        <WorkLocation />
+        <Services />
+        <Testimonials />
+        <ContactForm />
+        <Footer />
+      </div>
+    </>
   );
 }
 
