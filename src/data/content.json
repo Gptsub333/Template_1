@@ -1,0 +1,172 @@
+{
+    "navbar": {
+      "links": [
+        { "name": "Home", "path": "/" },
+        { 
+          "name": "Our Services", 
+          "path": "#", 
+          "dropdownIcon": true 
+        },
+        { "name": "Our Cases", "path": "#" },
+        { "name": "About Us", "path": "#" }
+      ],
+      "buttons": [
+        { "text": "Book a Call", "style": "border", "action": "#" },
+        { "text": "Contact", "style": "filled", "action": "#" }
+      ]
+    },
+
+    "hero": {
+      "backgroundImage": "/public/images/hero-img.jpg",
+      "circleText": "Remodeling Service • Since 2023 • Transform & Design •",
+      "description": "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+      "headline": "Your local expert",
+      "subHeadline": {
+        "italicText": "with",
+        "boldText": "remodeling"
+      }
+    },
+
+    "stats": {
+    "introText": "We are a team of entrepreneurs trained in operations, design, architecture, construction, accounting, and finance-with the common interest",
+    "statsData": [
+      {
+        "label": "Lorem ipsum",
+        "value": "85%"
+      },
+      {
+        "label": "Lorem ipsum",
+        "value": "760+"
+      },
+      {
+        "label": "Lorem ipsum",
+        "value": "15k"
+      }
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+    },
+
+    "workLocation": {
+      "heading": "Where do we work?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      "buttonText": "About Us",
+      "buttonLink": "#",
+      "mapImage": "/images/map.jpg",
+      "projectInfo": {
+        "projectImage": "/images/hero-img.jpg",
+        "projectCount": "760+ project",
+        "projectLocation": "in South Carolina"
+      }
+    },
+
+    "services": {
+    "heading": "Our Services",
+    "buttonText": "Our Cases",
+    "servicesList": [
+      {
+        "title": "Bathroom Remodeling",
+        "description": "Lorem ipsum",
+        "image": "/public/images/hero-img.jpg"
+      },
+      {
+        "title": "Kitchen Remodeling",
+        "description": "Lorem ipsum",
+        "image": "/public/images/hero-img.jpg"
+      },
+      {
+        "title": "Window and Door Replacement",
+        "description": "Lorem ipsum",
+        "image": "/public/images/hero-img.jpg"
+      }
+    ]
+    },
+
+    "testimonials": {
+    "sectionHeading": "Client Experiences",
+    "subHeading": "What Our Clients Say",
+    "testimonialsList": [
+      {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
+        "name": "Jenny Wilson",
+        "image": "/images/person.jpg",
+        "rating": 5
+      },
+      {
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Sarah Parker",
+        "image": "/images/person.jpg",
+        "rating": 5
+      }
+    ]
+    },
+
+    "contactForm": {
+    "heading": "Let's talk about what you want to achieve",
+    "subHeading": "Get in touch",
+    "address": {
+      "title": "Address",
+      "details": "123 Elm Street,\nCharlotte, NC 28202,\nUSA"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "email@domain.com",
+      "phone": "T: +1(919) 555-1234"
+    },
+    "formFields": [
+      {
+        "type": "text",
+        "placeholder": "First Name"
+      },
+      {
+        "type": "tel",
+        "placeholder": "Phone number"
+      },
+      {
+        "type": "email",
+        "placeholder": "email@domain.com"
+      }
+    ],
+    "submitButton": {
+      "text": "Submit",
+      "style": {
+        "bgColor": "#e8e5e0",
+        "textColor": "black",
+        "hoverBgColor": "#ACA296"
+      }
+    }
+    },
+
+    "footer": {
+      "heading": "Let's collaborate!",
+      "subHeading": "email@domain.com",
+      "links": [
+        {
+          "category": "Home",
+          "items": [
+            { "text": "Our Cases", "href": "#" },
+            { "text": "About Us", "href": "#" },
+            { "text": "Services", "href": "#" }
+          ]
+        },
+        {
+          "category": "Services",
+          "items": [
+            { "text": "Bathroom Remodeling", "href": "#" },
+            { "text": "Kitchen Remodeling", "href": "#" },
+            { "text": "Window and Door Replacement", "href": "#" }
+          ]
+        },
+        {
+          "category": "Follow Us",
+          "items": [
+            { "text": "Instagram", "href": "#" },
+            { "text": "LinkedIn", "href": "#" },
+            { "text": "Facebook", "href": "#" }
+          ]
+        }
+      ],
+      "copyright": "All rights reserved ©K&M Remodeling Services"
+    }
+}
+  
+  
